@@ -3,7 +3,7 @@ body {
   padding: 20px;
 }
 
-/*-----------------------Main--------------------- */
+
 .tasks-main {
   list-style: none;
   padding: 0;
@@ -30,7 +30,6 @@ body {
   background: #e9ecef;
 }
 
-/*-----------------------Main--------------------- */
 
 body {
   font-family: Arial, sans-serif;
@@ -94,7 +93,6 @@ button:hover:not([disabled]) {
   margin-top: 5px;
 }
 
-/* Snackbar (Form) styles */
 .form {
   display: flex;
   flex-direction: column;
@@ -134,7 +132,9 @@ input[type='number'] {
   border-radius: 6px;
   cursor: pointer;
 }
-
+.form-button:hover {
+  background-color: #6c8cff;
+}
 .radio-box {
   background-color: #fff;
   border: 2px solid #ccc;
